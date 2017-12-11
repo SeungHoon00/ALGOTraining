@@ -74,5 +74,44 @@ void main() {
 	system("pause");
 }
 
+//Using shift operators
+//
+//#include <iostream>
+//#include <bitset>
+//#include <string>
+//
+//using namespace std;
+//
+//void Buildarray(string* arr, int size) {
+//	for (int i = 0; i < size; i++) {
+//		unsigned int temp;
+//		cin >> temp;
+//		bitset<16> bitset{ temp << (16 - size) };
+//		arr[i] = bitset.to_string();
+//	}
+//}
+//
+//void main()
+//{
+//	int map_size;
+//	cin >> map_size;
+//
+//	string* array1 = new string[map_size];
+//	string* array2 = new string[map_size];
+//
+//	Buildarray(array1, map_size);
+//	Buildarray(array2, map_size);
+//
+//	for (int i = 0; i < map_size; i++) {
+//		for (int j = 0; j < map_size; j++) {
+//			if (array1[i].at(j) - 48 || array2[i].at(j) - 48 == 1)
+//				cout << "#";
+//			else
+//				cout << " ";
+//		}
+//		cout << endl;
+//	}
+//	system("pause");
+//}
 
 
